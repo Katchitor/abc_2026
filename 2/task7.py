@@ -2,7 +2,7 @@
 # Примечание: все точки получаем через функцию input().
 A,B,C = int(input("Введите точку A: ")), int(input("Введите точку B: ")), int(input("Введите точку C: "))
 
-AC = C - A
-BC = C - B
+AC = abs(C - A)
+BC = abs(C - B)
 ac_bc_summ = AC + BC
 print(f" Длина отрезка AC {AC}, Длина отрезка BC {BC}, Сумма отрезков AC и BC {ac_bc_summ}")
